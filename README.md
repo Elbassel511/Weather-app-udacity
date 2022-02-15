@@ -47,12 +47,12 @@ My first time to work with node.js , I have learnt alot through this project sta
 ## screen shot
 [(Back to top)](#table-of-contents)
 
-![Screenshot](images/weather%20App.png)
+![Screenshot](website/images/weather%20App.png)
 
 ## Links
 [(Back to top)](#table-of-contents)
 
-- Solution URL: []
+- Solution URL: [https://github.com/Elbassel511/Weather-app-udacity]
 - Live Site URL: []
 
 
