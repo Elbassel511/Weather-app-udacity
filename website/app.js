@@ -10,10 +10,11 @@ const generate = document.querySelector("#generate");
 // Event listener on generate buttun
 generate.addEventListener("click", (Event) => {
   event.preventDefault();
-  // Create a new date instance dynamically with JS
   errors = [];
+  // Create a new date instance dynamically with JS
   let d = new Date();
-  let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+  // Months starts from 0-11 
+  let newDate = (d.getMonth()+1) + "." + d.getDate() + "." + d.getFullYear();
   let zip = document.querySelector("#zip").value;
   let feeling = document.querySelector("#feel").value;
   let url = `${baseUrl}${zip}&appid=${apiKey}&units=${units}`;
@@ -27,7 +28,6 @@ generate.addEventListener("click", (Event) => {
     //  check if the response went well
     if (resultData.cod !== 200) {
       errors.push(resultData.message);
-      console.log(errors);
       handlingErrors();
       return;
     }
