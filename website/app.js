@@ -13,7 +13,6 @@ generate.addEventListener("click", (Event) => {
   errors = [];
   // Create a new date instance dynamically with JS
   let d = new Date();
-  // Months starts from 0-11 
   let newDate = (d.getMonth()+1) + "." + d.getDate() + "." + d.getFullYear();
   let zip = document.querySelector("#zip").value;
   let feeling = document.querySelector("#feel").value;
