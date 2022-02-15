@@ -47,7 +47,7 @@ My first time to work with node.js , I have learnt alot through this project sta
 ## screen shot
 [(Back to top)](#table-of-contents)
 
-![Screenshot](./website/images/weather%20App.png)
+![Screenshot](./website/images/weathe-app.png)
 
 ## Links
 [(Back to top)](#table-of-contents)
